@@ -1,0 +1,13 @@
+.nav__right--menu{
+  input{
+    border-radius:20px;
+    padding:7px 5px;
+    border:none;
+    background-color:rgba($text-gray, 0.8);
+    color:$white;
+  }
+  select{
+    background:none;
+    color:$white;
+  }
+}

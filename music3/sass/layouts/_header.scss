@@ -1,0 +1,23 @@
+header {
+  color: $white;
+  .header__left--text {
+    margin-left: 30px;
+  }
+  ol {
+    margin-top: 40px;
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        margin-right: 15px;
+        color: $white;
+      }
+    }
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}

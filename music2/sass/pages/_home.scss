@@ -1,0 +1,74 @@
+.popular__songs {
+  color: $white;
+  margin-top: 30px;
+  h2 {
+    margin-left: 150px;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  .songs-name {
+    margin-top: 30px;
+    ol {
+      line-height: 50px;
+    }
+    .name--artist {
+      line-height: 60px;
+      h3 {
+        font-size: 16px;
+      }
+      h4 {
+        color: $text-gray;
+      }
+    }
+  }
+}
+.albums__section {
+  margin-top: 50px;
+  h2 {
+    color: $white;
+    margin: 25px 150px;
+  }
+  .heading-albums {
+    p {
+      margin-top: 40px;
+      font-weight: bold;
+      color: $text-gray;
+    }
+  }
+  .catygory-row-1 {
+    margin-bottom: 50px;
+  }
+  .album-1 {
+    width: 200px;
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+    }
+    h4 {
+      color: $white;
+      margin: 5px 0px;
+      font-size: 18px;
+    }
+    p {
+      color: $text-gray;
+    }
+  }
+}
+.albums-like {
+.album-1{
+  img{
+    border-radius: 50%;
+  }
+}
+}
+img{
+  transition: all 0.8s ease-in-out;
+
+  &:hover{
+    transform: scale(1.1) rotate(360deg) translateY(-3px);
+    box-shadow: 0 15px 30px $white;
+  }
+}

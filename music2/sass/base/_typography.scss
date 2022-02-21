@@ -1,0 +1,27 @@
+.title {
+  color: $white;
+  margin-left: 150px;
+  margin-top: 20px;
+  h1{
+    font-size: 40px;
+  }
+  ul {
+    margin-left: 30px;
+    li {
+      list-style: none;
+      .decoration {
+    border-bottom: 3px solid $white;
+   padding-bottom: 10px;
+      }
+      a {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover{
+          border-bottom: 3px solid $white;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}

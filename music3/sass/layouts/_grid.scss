@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.nav__left--menu {
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .header__left--section {
+    display: flex;
+    align-items: center;
+
+    ol {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+.songs-name {
+  display: flex;
+  justify-content: space-around;
+}
+.catygory-row-1 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.heading-albums {
+  display: flex;
+  gap: 780px;
+}
+.title {
+  display: flex;
+  ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+  }
+}
